@@ -1,0 +1,7 @@
+
+# Ignore Python cache and environment folders
+__pycache__/
+noaa_env/
+
+# Ignore reference and external data folders
+Reference Data/

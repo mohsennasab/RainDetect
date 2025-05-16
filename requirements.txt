@@ -1,0 +1,15 @@
+streamlit>=1.25.0
+geopandas>=0.13.2
+leafmap>=0.25.0
+pandas>=2.0.0
+requests>=2.31.0
+pyproj>=3.5.0
+python-dotenv>=1.0.0
+numpy
+matplotlib
+cdo-api-py
+gradio
+shapely
+meteostat
+contextily
+Python 3.10.16

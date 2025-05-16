@@ -1,0 +1,8 @@
+name,country,region,wmo,icao,latitude,longitude,elevation,timezone,hourly_start,hourly_end,daily_start,daily_end,monthly_start,monthly_end
+Minneapolis-St Paul International,US,MN,72658,KMSP,44.8667,-93.05,256.0,America/Chicago,1945-01-01,2025-05-15,1938-04-09,2025-05-10,1938-01-01,2022-01-01
+Minneapolis / Blaine,US,MN,,KANE,45.1426,-93.2127,278.0,America/Chicago,2022-04-23,2025-05-15,2022-04-24,2022-04-26,,
+Minneapolis / Eden Prairie,US,MN,,KFCM,44.8275,-93.4586,276.0,America/Chicago,2006-01-01,2025-05-15,2006-01-02,2022-04-24,2006-01-01,2022-01-01
+Minneapolis / Brooklyn Center,US,MN,,KMIC,45.062,-93.3539,265.0,America/Chicago,2006-01-01,2025-05-15,2006-01-01,2022-04-24,2006-01-01,2021-01-01
+Saint Paul / Inver Grove Heights,US,MN,,KSGS,44.8571,-93.0329,250.0,America/Chicago,2006-01-01,2025-05-15,2006-01-01,2022-04-24,2006-01-01,2022-01-01
+Saint Paul,US,MN,,KSTP,44.9346,-93.0603,215.0,America/Chicago,1983-11-03,2025-05-15,1991-12-16,2022-04-24,2005-01-01,2022-01-01
+Lake Elmo Airport,US,MN,,K21D,45.0002,-92.8549,285.0,America/Chicago,2022-05-06,2025-05-15,,,,
