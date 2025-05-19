@@ -109,8 +109,7 @@ source RainDetect/bin/activate   # On Windows use: RainDetect\Scripts\activate
 Make sure you are in the root directory (where requirements.txt is located), then run:
 
 ```bash
-python -m venv RainDetect
-source RainDetect/bin/activate   # On Windows use: RainDetect\Scripts\activate
+pip install -r requirements.txt
 ```
 ---
 
