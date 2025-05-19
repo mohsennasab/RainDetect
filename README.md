@@ -4,7 +4,6 @@
   <img src="Images/Logo.png" alt="Project Logo" width="300"/>
 </p>
 
-
 This two-part Python project helps identify rainfall stations in a user-defined area, download hourly precipitation data, and extract and analyze individual storm events using customizable thresholds. It outputs both data and visuals to support hydrologic and climate analysis workflows.
 
 ---
@@ -98,36 +97,48 @@ This tool converts all data to **Imperial Units** before analysis.
 
 ## 🧪 Requirements
 
-Install dependencies from `requirements.txt`:
+To get started, create a virtual environment and install dependencies using the steps below.
+
+### 1. Create and activate a virtual environment
 
 ```bash
-pip install -r requirements.txt
+python -m venv RainDetect
+source RainDetect/bin/activate   # On Windows use: RainDetect\Scripts\activate
 ```
-
-Or manually:
+### 2. Install dependencies
+Make sure you are in the root directory (where requirements.txt is located), then run:
 
 ```bash
-pip install pandas geopandas matplotlib shapely contextily requests meteostat
+python -m venv RainDetect
+source RainDetect/bin/activate   # On Windows use: RainDetect\Scripts\activate
 ```
-
 ---
 
-## 🚧 Roadmap
+## 🤝 Contributing
 
-- [ ] Add UI for threshold selection and batch upload
-- [ ] Event detection summary across multiple stations
-- [ ] Export GIS-ready shapefiles of event time ranges
-- [ ] Add NOAA gridded rainfall dataset compatibility
+Feel free to fork the repo and submit pull requests. Open an issue if you spot bugs or want to suggest features!
 
----
+**Developed by:** Mohsen Tahmasebi Nasab, PhD  
+🌐 [hydromohsen.com](https://www.hydromohsen.com)
 
-## 👤 Author
-
-**Mohsen Tahmasebi Nasab**  
-Water Resources Engineer | Python Automation Advocate
 
 ---
 
 ## 📄 License
 
-Open-source. Please cite [Meteostat](https://meteostat.net/) for all meteorological data used in this project.
+Custom Open-Source License
+
+Copyright (c) 2024 Mohsen Tahmasebi Nasab
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to use, copy, and modify the Software for personal, academic, or internal non-commercial purposes, subject to the following conditions:
+
+1. Commercial use, including but not limited to use in paid services, proprietary software, or as part of any commercial product or package, is not permitted without prior written permission from the copyright holder.
+
+2. Redistribution of the Software, in part or in full, whether modified or unmodified, is also not permitted without prior written permission.
+
+3. This copyright notice and license shall be included in all copies or substantial portions of the Software.
+
+## Disclaimer
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the author or copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software, including but not limited to any direct, indirect, incidental, special, exemplary, or consequential damages.
+
+---
